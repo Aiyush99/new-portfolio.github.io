@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+    <link rel="stylesheet"href="style.css"/>
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo">Portfolio</div>
+            <ul class="menu">
+               <li><a href="#home">Home</a></li>
+               <li><a href="#about">About Us</a></li>
+               <li><a href="#services">Projects</a></li>
+               <li><a href="#contact">Contacts</a></li>
+
+            </ul>
+
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- HOME SECTION -->
+
+    <section class="home"id="home">
+    
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text1">Hello, My name is</div>
+                <div class="text2">Aiyush Aggarwal</div>
+                <div class="text3">And I'm a <span>developer</span></div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION  -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">
+About me</h2>
+<div class="about-content">
+                <div class="column left">
+                    <img src="./images/abhinav.jpeg" alt="profile-image">
+                </div>
+<div class="column right">
+                    <div class="text">
+I'm Aiyush and I'm a <span class="typing-2">Developer</span></div>
+<p>
+    I'm Aiyush and I'm a practitioner of Reactjs and i am learning reactjs from over 1+ year and i have created various project in react also worked on an open source project.
+    </p>
+                </div>
+</div>
+</div>
+</section>
+
+<!-- PROJECT SECTION -->
+
+<section class="services" id="services">
+    <div class="max-width">
+        <h2 class="title">
+My Projects</h2>
+<div class="serv-content">
+            <div class="card">
+                <div class="box">
+                    
+                    <div class="text">
+Github Finder</div>
+<p>
+This project is a Github Finder in which user can search of any github user by name and the website will show lists of github users of that name and that  data is being fetched from github API.</p>
+</div>
+<a href="">Github</a>
+<a href="https://github-finder-12672.netlify.app/" class="live">Live Demo</a>
+
+</div>
+<div class="card">
+                <div class="box">
+                   
+                    <div class="text">
+Covid Tracker</div>
+<p>
+This is a covid tracker web site it shows current covid cases in selected country with a graph. Its been made using covid api</p>
+</div>
+<a href="#">Github</a>
+<a href="https://covid-19-c07a0.web.app/" class="live">Live Demo</a>
+</div>
+
+
+
+</section>
+
+
+<section class="contact" id="contact">
+    <div class="max-width">
+        <h2 class="title">
+Contact me</h2>
+<div class="contact-content">
+            <div class="column left">
+               
+<div class="icons">
+                    <div class="row">
+                        <i class="fas fa-user"></i>
+                        <div class="info">
+                            <div class="head">
+Name</div>
+<div class="sub-title">
+    Aiyush Aggarwal
+</div>
+</div>
+</div>
+<div class="row">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="info">
+                            <div class="head">
+Address</div>
+<div class="sub-title">
+RPS SAVANA SECTOR-88, GREATER FARIDABAD </div>
+</div>
+</div>
+<div class="row">
+                        <i class="fas fa-envelope"></i>
+                        <div class="info">
+                            <div class="head">
+Email</div>
+<div class="sub-title">
+aiyush12aggarwal@gmail.com</div>
+</div>
+</div>
+</div>
+</div>
+<div class="column right">
+                <div class="text">
+Message me</div>
+<form action="https://formspree.io/f/myylzana" method="POST">
+                    <div class="fields">
+                        <div class="field name">
+                            <label for="name">Name</label>
+                            <input style="margin-top: 5px;" type="text"name="name">
+                        </div>
+<div class="field email">
+      <label for="email">E-mail</label>
+                            <input style="margin-top: 5px;" type="email" name="email">
+                        </div>
+</div>
+<div class="field">
+    <br/>
+      <label style="margin-top: 5px;" for="subject">Subject</label>
+                        <input style="margin-top: 5px;" type="text" name="subject">
+                    </div>
+<div class="field textarea">
+    <br/>
+    <br/>
+                         <label  for="message">Message</label>
+                        <textarea style="margin-top: 5px;" cols="30" rows="10"name="message"></textarea>
+                    </div>
+<div class="button">
+                        <button style="margin-top:55px;" type="submit">Send message</button>
+                    </div>
+</form>
+</div>
+</div>
+</div>
+</section>
+
+
+<footer>
+    <h2 class="footer-title">Follow Me On</h2>
+    <div class="social-icons">
+    <a href="https://www.linkedin.com/feed/?trk=homepage-basic_google-one-tap-submit"><i class="fab fa-linkedin"></i></a>
+ </div>
+ 
+ </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
